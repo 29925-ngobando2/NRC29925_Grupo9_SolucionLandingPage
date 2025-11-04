@@ -1,0 +1,103 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #8fbdd9; 
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    overflow-x: hidden;
+}
+
+.logo {
+    height: 80px;
+    margin-top: 20px;
+}
+
+.main-title {
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 1.1;
+    letter-spacing: -2px;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .main-title {
+        font-size: 4rem;
+    }
+}
+
+.text-description {
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.form-control {
+    background: transparent !important;
+    color: #fff !important;
+    border: 0 !important;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.7) !important;
+    border-radius: 0 !important;
+    padding: 0.75rem 0.1rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+    border-bottom-color: #fff !important;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+}
+
+.btn-submit {
+    background: #fff;
+    color: #00C9B1;
+    border: 2px solid #fff;
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 0.75rem 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-submit:hover {
+    background: transparent;
+    color: #fff;
+}
+
+a .fab {
+    color: #fff;
+    font-size: 30px;
+    margin-right: 15px;
+    margin-left: 0;
+    transition: all 0.3s ease;
+}
+
+a .fab:hover {
+    color: #ddd;
+    transform: scale(1.1);
+}
+
+footer {
+    background: #000;
+    padding: 2rem 0;
+    margin-top: 5rem;
+}
+
+.footer-text {
+    color: #888;
+    font-size: 0.9rem;
+    margin: 0;
+}
